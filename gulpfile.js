@@ -12,7 +12,6 @@ function style() {
     .pipe(browserSync.stream());
 }
 
-
 function watch() {
     browserSync.init({
         server: {
